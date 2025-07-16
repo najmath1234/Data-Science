@@ -1,0 +1,7 @@
+file=open("file2.txt","r")
+contents=file.read()
+new_contents=contents.replace("how are you","how old are you")
+file.close()
+file=open("file2.txt","w")
+file.write(new_contents)
+file.close()
